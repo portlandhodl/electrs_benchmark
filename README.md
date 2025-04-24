@@ -32,6 +32,10 @@ The table below shows benchmark results from various system configurations. This
 |--------|-------|-----|--------|------|-------------|----------|
 | Blockstream Electrs | Full | Xeon 2699v4 | 128GB RAM | SSD | 112.193µs | 133.613µs |
 
+## 🗒️ Notes
+- Run this benchmark on the same host as the electrs server
+  - More networks hops will = an order of magnitude worse of a result
+
 ## 🚀 Features
 
 - **Address UTXO Lookups**: Test how quickly a server can retrieve unspent transaction outputs for Bitcoin addresses
