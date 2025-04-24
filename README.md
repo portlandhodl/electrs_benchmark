@@ -7,6 +7,11 @@
 
 Desinged to quantify and test your electrs server implementations. Point it at YOUR electrs implementations and let it rip!
 
+Works with ...
+ - Mempool Electrs
+ - Blockstream Electrs
+ - Fulcrum
+
 ## 🤔 Why This Exists
 
 Electrum servers are the backbone of many Bitcoin wallets and applications, but their performance can vary dramatically based on hardware, configuration, and implementation. This tool was created to:
