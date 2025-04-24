@@ -14,9 +14,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     println!("Connecting to Electrum server: {}", args.server);
     let mut client = Client::new(&args.server)?;
-    let response = client.server_features()?;
-    println!("Connected to Electrum server: {response:?}");
-
+    
     println!("Loading addresses from CSV...");
     let addresses = read_csv_values("benchmark_csv/bitcoin_addresses.csv")?;
     println!("Loaded {} addresses", addresses.len());
