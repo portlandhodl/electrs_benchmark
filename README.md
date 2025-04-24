@@ -5,7 +5,7 @@
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-Desinged to quantify and test your electrs server implementations.
+Desinged to quantify and test your electrs server implementations. Point it at YOUR electrs implementations and let it rip!
 
 ## 🤔 Why This Exists
 
