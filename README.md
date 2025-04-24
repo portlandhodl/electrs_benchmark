@@ -24,6 +24,14 @@ Electrum servers are the backbone of many Bitcoin wallets and applications, but 
 
 Whether you're a Bitcoin node operator, a wallet developer, or just a curious Bitcoiner, this tool gives you the hard data you need to make informed decisions about which Electrum server to use or how to optimize your existing setup.
 
+## 📊 Benchmark Results
+
+The table below shows benchmark results from various system configurations. This can help you understand what performance to expect from different hardware and server implementations.
+
+| CLIENT | INDEX | CPU | MEMORY | DISK | UTXO Lookup | TX Fetch |
+|--------|-------|-----|--------|------|-------------|----------|
+| Blockstream Electrs | Full | Xeon 2699v4 | 128GB RAM | SSD | 112.193µs | 133.613µs |
+
 ## 🚀 Features
 
 - **Address UTXO Lookups**: Test how quickly a server can retrieve unspent transaction outputs for Bitcoin addresses
@@ -93,6 +101,10 @@ These metrics help you understand:
 - How long it takes to process a batch of requests
 - The average time per request type
 - The relative performance between UTXO lookups and transaction fetches
+
+*Note: All benchmarks were run with 100,000 samples for both address UTXO lookups and transaction fetches.*
+
+To add your own results to this table, please submit a pull request with your benchmark data and system specifications.
 
 ## 🧪 Preparing Your Own Test Data
 
