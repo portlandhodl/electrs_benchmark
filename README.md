@@ -1,11 +1,11 @@
 # ⚡ Electrs Benchmark ⚡
 
-## The Ultimate Electrum Server Performance Testing Tool
+## The Electrum / Electrs Server Performance Testing Tool
 
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-Ever wondered if your Electrum server is as fast as lightning? Or perhaps slower than a turtle carrying a Bitcoin block? **Electrs Benchmark** is here to answer that burning question!
+Desinged to quantify and test your electrs server implementations.
 
 ## 🤔 Why This Exists
 
